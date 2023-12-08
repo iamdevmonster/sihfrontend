@@ -2,11 +2,14 @@
   width: 100%;
   display: flex;
   border: none;
-  background: #fff;
-  color: #000;
+  background: transparent;
+  backdrop-filter: blur(50px);
+  color: #ffffff;
+  font-weight: 500;
   padding: 1rem 2rem;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
 }
 .app__navbar-logo {
   display: flex;

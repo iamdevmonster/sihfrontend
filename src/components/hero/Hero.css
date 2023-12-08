@@ -1,0 +1,10 @@
+.hero__bg {
+    background: url('../../Assets/Image/article-2340803-1a4b2650000005dc-258_964x696.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+  .hero{
+    padding-top: 100px;
+  }
