@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { MdClose } from "react-icons/md";
 import "./Navbar.css";
 
 
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <GiHamburgerMenu color="#000" frontsize={27} onClick={() => { setToggleMenu(true) }} />
                     {ToggleMenu && (
                         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-                            <MdOutlineRestaurantMenu
+                            <MdClose
                                 frontsize={27}
                                 onClick={() => { setToggleMenu(false) }}
                                 className="overlay__close"
