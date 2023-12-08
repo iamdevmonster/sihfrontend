@@ -2,9 +2,15 @@
     border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
+    padding-top: 30px;
     transition: 0.5s ease;
     width: 200px;
-    
+    border-radius: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   .card_box:hover {
